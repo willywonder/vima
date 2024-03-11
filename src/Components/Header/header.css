@@ -1,0 +1,22 @@
+.text{
+    color: rgba(0, 0, 255, 0.664);
+    font-size: 50px;
+}
+ul{
+ list-style: none;
+ display: flex;
+ gap: 15px;
+}
+.container{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    padding: 15px 7%;
+    border: 3px solid black;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+    /* height: 50px;
+    width: 50px; */
+}
