@@ -84,8 +84,8 @@ h1 {
   font-weight: 500;
   line-height: 18px;
   color: #000000;
-  background-color: #EEEEEE;
-  width:  600px; 
+  background-color: #eeeeee;
+  width: 600px;
   height: 20px;
   padding: 15px 15px;
 }
@@ -105,16 +105,61 @@ p {
   color: #656565;
   width: 800px;
 }
-.product{
-margin-top: 80px;
-margin-left: 120px;
+.product {
+  margin-top: 80px;
+  margin-left: 120px;
 }
-.part3{
+.part3 {
+  display: flex;
+}
+.buyer {
+  margin-top: 80px;
+}
+.phase2 {
+  margin-left: 100px;
+  margin-top: 18px;
+}
+.sihao {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.haohao {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 31px;
+  color: #393939;
+}
+.grid-container {
+  display: grid;
+  grid: auto/ auto auto auto;
+}
+.grid-items {
+  border: solid 0.6px;
+  padding: 15px 15px;
+}
+.number {
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 18px;
+  color: #000000;
+}
+.reviews{
     display: flex;
+    justify-content: space-between;
 }
-.buyer{
-    margin-top:  80px;
+.add{
+    color: #15a1db;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+cursor: pointer;
 }
-.phase2{
- margin-left: 100px;
+.frame261{
+    margin-top: 40px;
+}
+.para{
+    margin-bottom: 30px;
 }

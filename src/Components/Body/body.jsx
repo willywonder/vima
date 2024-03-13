@@ -1,6 +1,7 @@
 import React from "react";
 import "../Body/body.css";
 import { IoMdList } from "react-icons/io";
+import { GoLocation } from "react-icons/go";
 
 const Body = () => {
   return (
@@ -94,6 +95,64 @@ const Body = () => {
         <div className="phase2">
           <div className="buyer">
             <h1>BUYER INSIGHTS</h1>
+          </div>
+          <div className="sihao">
+            <div className="image">
+              <img src="image 11.png" width={97} height={86} alt=" sihao" />{" "}
+            </div>
+            <div className="facibus">
+              <div className="haohao">Ficibus Haohao Vehicle Co., Ltd.</div>
+              <div className="location">
+                <GoLocation /> Texas
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2>Product Analysis</h2>
+          </div>
+          <div className="grid-container">
+            <div className="grid-items">
+              <div className="number">59+</div>
+              <div className="undertext">Inquiries (180 days)</div>
+            </div>
+            <div className="grid-items">
+              <div className="number">$365,456.16</div>
+              <div className="undertext">Vendors Sales amount</div>
+            </div>
+            <div className="grid-items">
+              <div className="number">10+</div>
+              <div className="undertext">Stores Order Volume</div>
+            </div>
+            <div className="grid-items">
+              <div className="number"> 6hr</div>
+              <div className="undertext">Response Time</div>
+            </div>
+            <div className="grid-items">
+              <div className="number">90%</div>
+              <div className="undertext">On-Time Delivery rate</div>
+            </div>
+            <div className="grid-items">
+              <div className="number">170,000+</div>
+              <div className="undertext">Transactions</div>
+            </div>
+          </div>
+          <div className="rating">
+            <h2> Ratings & Reviews</h2>
+          </div>
+          <div className="reviews">
+            <img src="/Frame 175.png" width={282} height={26} alt="" />
+            <div className="add">AddRating</div>
+          </div>
+          <div className="frame261">
+            <img src="/Frame 261.png" width={127} height={19} alt="" />
+          </div>
+          <div>
+            <h2>I like it</h2>
+            <div className="para">
+              It is a good sunscreen and it leaves no whitecast but it makes the
+              face very sweaty. Good product , fast delivery , amazing price
+            </div>
+            3rd Jul 2023 by Aneliko
           </div>
         </div>
       </div>

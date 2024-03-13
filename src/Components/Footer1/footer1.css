@@ -1,0 +1,30 @@
+.email{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+}
+ .footer-one{
+    width: 100%;
+    height: 400px;
+    background-color:#EAEAEA;
+ }
+ .join{
+    font-family: Josefin Sans;
+font-size: 36px;
+font-weight: 600;
+line-height: 45px;
+ }
+ input{
+    padding: 20px 20px;
+    width: 600px;
+    margin-top: 50px;
+ }
+ .button{
+    padding: 20px 20px;
+    margin-left: 20px;
+    background-color:#15A1DB ;
+    color: #EAEAEA;
+    border: none;
+ }
